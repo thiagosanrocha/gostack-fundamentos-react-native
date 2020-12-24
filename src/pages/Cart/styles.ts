@@ -92,6 +92,10 @@ export const ActionButton = styled.TouchableOpacity`
   border-radius: 5px;
   padding: 12px;
   margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
 `;
 
 export const TotalProductsContainer = styled.View`
